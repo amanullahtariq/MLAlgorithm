@@ -8,7 +8,7 @@ Implmentation some basic machine learning algorithms. All of these algorithms ar
 * [Decision Tree] (https://en.wikipedia.org/wiki/Decision_tree_learning)
 This code is implementation of the google lecture on the machine which can be [found here] (https://www.youtube.com/watch?v=cKxRvEZd3Mw)
 
-### How do I get set up? ###
+## How do I get set up? ##
 This code is written in python using [Jupyter](http://jupyter.org/install.html)
 * First setting up and  how to use jupyther you can use this [Link] (https://www.youtube.com/watch?v=IsXXlYVBt1M)
 
