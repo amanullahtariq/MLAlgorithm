@@ -15,7 +15,7 @@ This code is written in python using [Jupyter](http://jupyter.org/install.html)
 ## Reference ##
 * [Introduction to Machine Learning, University Of Freiburg by Dr. Joschka Bödecker, Manuel Blum]  (http://ml.informatik.uni-freiburg.de/teaching/ss15/ml)
 * [ML Recipies by Josh Gordon, Google Developers] (https://www.youtube.com/watch?v=cKxRvEZd3Mw)
-* (https://www.coursera.org/learn/machine-learning)
+* [Machine learning, Andrew Ng](https://www.coursera.org/learn/machine-learning)
 
 
 ### Who do I talk to? ###
