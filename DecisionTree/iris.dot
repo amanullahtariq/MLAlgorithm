@@ -17,7 +17,7 @@ node [shape=box] ;
 3 -> 7 ;
 8 [label="gini = 0.0\nsamples = 3\nvalue = [0, 0, 3]"] ;
 7 -> 8 ;
-9 [label="X[2] <= 5.45\ngini = 0.4444\nsamples = 3\nvalue = [0, 2, 1]"] ;
+9 [label="X[0] <= 6.95\ngini = 0.4444\nsamples = 3\nvalue = [0, 2, 1]"] ;
 7 -> 9 ;
 10 [label="gini = 0.0\nsamples = 2\nvalue = [0, 2, 0]"] ;
 9 -> 10 ;
