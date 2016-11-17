@@ -1,4 +1,4 @@
-# Machine learning Example
+# Machine learning Algorithms
 If you are new to Machine learning please check out the reference section to dive deeper in to this field.
 
 ## Introduction ##
