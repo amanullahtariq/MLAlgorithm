@@ -10,7 +10,19 @@ In this code, **Linear Regression** is used on the dataset to calculate accuracy
 
 * Bonus points if you perform linear regression on a dataset with 3 different variables.
 
-##Requirement
+##Code
+Implementation is been done in python using Jupyter. Libraries used here are:
+* pandas 
+* numpy
+* sklearn
+* matplotlib
+
+Source code can be [found here](https://github.com/amanullahtariq/MLAlgorithm/blob/master/linear_regression_demo/Challenge.ipynb). 
+
+
+##Requirements
+* [Jupyter](http://jupyter.org/install.html)
+* [Python](https://www.python.org/)
 
 ##Results
 ####Challenge#1: Using Linear Regression on 'challenge_dataset'
