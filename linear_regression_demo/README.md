@@ -25,18 +25,19 @@ Source code can be [found here](https://github.com/amanullahtariq/MLAlgorithm/bl
 * [Python](https://www.python.org/)
 
 ##Results
-####Challenge#1: Using Linear Regression on 'challenge_dataset'
-* Mean Square Error:
+####Challenge#1: Using Linear Regression on **'challenge_dataset'**
+
+#####Mean Square Error
 ![Result of Challenge Data-Set](images/challenge-result.png)
 
-* Visualization
+#####Visualization
 ![Result of Challenge Data-Set](images/challenge.png)
 
 ####Bonus: Linear regression on a dataset with 3 different variables.
-* Mean Square Error:
+#####Mean Square Error
 ![Result of Challenge Data-Set](images/bonus-result.png)
 
-* Visualization
+#####Visualization
 ![Result of Challenge Data-Set](images/bonus.png)
 
 ### Who do I talk to? ###
