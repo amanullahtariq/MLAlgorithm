@@ -3,6 +3,7 @@ This code is the respond to video: [How to Make a Prediction - Intro to Deep Lea
 
 ##Overview
 In this code, **Linear Regression** is used on the dataset to calculate accuracy. Data is available on [Siraj's Github](https://github.com/llSourcell/linear_regression_demo). The challenge for this [video]((https://www.youtube.com/watch?v=vOppzHpvTiQ)) is to use scikit-learn to create a line of best fit for the included 'challenge_dataset'. Then, make a prediction for an existing data point and see how close it matches up to the actual value. Print out the error. You can use scikit-learn's documentation for more help. These weekly challenges are not related to the Udacity nanodegree projects, those are additional.
+To read more about it [click here](http://amanullahtariq.com/applying_linear_regression)
 
 ##Challenge
 
