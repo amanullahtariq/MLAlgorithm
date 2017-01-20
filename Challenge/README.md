@@ -1,26 +1,37 @@
-# Machine learning Algorithms
-If you are new to Machine learning please check out the reference section to dive deeper in to this field.
+# gender_classification_challenge
 
-## Introduction ##
-Implmentation some basic machine learning algorithms. All of these algorithms are implemented after taking courses in University of Freiburg and also after taking online courses about the ML algorithms.
+##Overview
 
-## Methods #
-* [Decision Tree] (https://en.wikipedia.org/wiki/Decision_tree_learning)
-This code is implementation of the google lecture on the machine which can be [found here] (https://www.youtube.com/watch?v=cKxRvEZd3Mw)
+This is the code for the gender classification challenge for 'Learn Python for Data Science #1' by @Sirajology on [YouTube](https://youtu.be/T5pRlIbr6gg). The code uses the [scikit-learn](http://scikit-learn.org/) machine learning library to train a [decision tree](https://en.wikipedia.org/wiki/Decision_tree) on a small dataset of body metrics (height, width, and shoe size) labeled male or female. Then we can predict the gender of someone given a novel set of body metrics. 
 
-## How do I get set up? ##
-This code is written in python using [Jupyter](http://jupyter.org/install.html)
-* First setting up and  how to use jupyther you can use this [Link] (https://www.youtube.com/watch?v=IsXXlYVBt1M)
+##Dependencies
 
-## Reference ##
-* [Introduction to Machine Learning, University Of Freiburg by Dr. Joschka Bödecker, Manuel Blum]  (http://ml.informatik.uni-freiburg.de/teaching/ss15/ml)
-* [ML Recipies by Josh Gordon, Google Developers] (https://www.youtube.com/watch?v=cKxRvEZd3Mw)
-* [Machine learning, Andrew Ng](https://www.coursera.org/learn/machine-learning)
+* Scikit-learn (http://scikit-learn.org/stable/install.html)
+* numpy (pip install numpy)
+* scipy (pip install scipy)
 
+Install missing dependencies using [pip](https://pip.pypa.io/en/stable/installing/)
 
-### Who do I talk to? ###
+##Usage
+
+Once you have your dependencies installed via pip, run the script in terminal via
+
+```
+python demo.py
+```
+
+##Challenge
+
+Find 3 more classifiers from the sci-kit learn [documentation](http://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html) and add them to the demo.py code. Train them on the same dataset and [compare their results](http://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html). You can determine accuracy by trying to predict testing you trained classifier on samples from the training data and see if it correctly classifies it. Push your code repository to [github](https://help.github.com/articles/set-up-git/) then post it in the comments. I'll give the winner a shoutout a week from now!
+
+###Who do I talk to? ###
 I would be happy to talk to you about this project and if you are interested then we can further enhance this project to.
 
-### Contact ##
+###Contact ##
 * Amanullah Tariq 
 * Email: amanullah.tariq@gmail.com
+
+##Reference
+* [Statistical classification](https://en.wikipedia.org/wiki/Statistical_classification)
+* [Machine Learning Algorithms for Classification](http://www.cs.princeton.edu/~schapire/talks/picasso-minicourse.pdf)
+* [Introduction - Learn Python for Data Science #1](https://www.youtube.com/watch?v=T5pRlIbr6gg&index=1&list=PL2-dafEMk2A6QKz1mrk1uIGfHkC1zZ6UU)
