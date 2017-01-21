@@ -9,6 +9,7 @@ This is the code for the gender classification challenge for 'Learn Python for D
 * Scikit-learn (http://scikit-learn.org/stable/install.html)
 * numpy (pip install numpy)
 * matplotlib (pip install matplotlib)
+* IJupyter
 
 ##Usage
 
