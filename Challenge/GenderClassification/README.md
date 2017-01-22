@@ -2,7 +2,16 @@
 # Gender Classification Challenge
 ## Overview
 
-This is the code for the gender classification challenge for 'Learn Python for Data Science #1' by @Sirajology on [YouTube](https://youtu.be/T5pRlIbr6gg). The code uses the [scikit-learn](http://scikit-learn.org/) machine learning library to train a [decision tree](https://en.wikipedia.org/wiki/Decision_tree) on a small dataset of body metrics (height, width, and shoe size) labeled male or female. Then we can predict the gender of someone given a novel set of body metrics. 
+This is the code for the gender classification challenge. The code uses the [scikit-learn](http://scikit-learn.org/) machine learning library to train different [Classifiers](http://scikit-learn.org/stable/auto_examples/classification/plot_classifier_comparison.html) on a small dataset of body metrics (height, width, and shoe size) labeled male or female. Then we can predict the gender of someone given a novel set of body metrics. 
+
+## Details
+**[Classification] (https://en.wikipedia.org/wiki/Decision_tree_learning)**
+In this I used different classifier to Classify Male and Female just using there body measurements **Heigt, Weight and Shoe size**[found here] (https://www.youtube.com/watch?v=cKxRvEZd3Mw)
+   * Decision Tree Classifier
+   * KNeighbors Classifier
+   * Guassian Process Classifier
+   * Random Forest Classifier
+   * Ada-Boost Classifier
 
 ## Dependencies
 
