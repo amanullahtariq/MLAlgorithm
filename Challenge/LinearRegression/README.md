@@ -1,17 +1,17 @@
 # Linear Regression Challenge
 This code is the respond to video: [How to Make a Prediction - Intro to Deep Learning #1](https://www.youtube.com/watch?v=vOppzHpvTiQ) created by Siraj Rabal on Youtube.
 
-##Overview
+## Overview
 In this code, **Linear Regression** is used on the dataset to calculate accuracy. Data is available on [Siraj's Github](https://github.com/llSourcell/linear_regression_demo). The challenge for this [video]((https://www.youtube.com/watch?v=vOppzHpvTiQ)) is to use scikit-learn to create a line of best fit for the included 'challenge_dataset'. Then, make a prediction for an existing data point and see how close it matches up to the actual value. Print out the error. You can use scikit-learn's documentation for more help. These weekly challenges are not related to the Udacity nanodegree projects, those are additional.
 To read more about it [click here](http://amanullahtariq.com/applying_linear_regression)
 
-##Challenge
+## Challenge
 
 * The challenge for this video is to use scikit-learn to create a line of best fit for the included 'challenge_dataset'. Then, make a prediction for an existing data point and see how close it matches up to the actual value. Print out the error you get. You can use scikit-learn's [documentation](http://scikit-learn.org/stable/documentation.html) for more help.
 
 * Bonus points if you perform linear regression on a dataset with 3 different variables.
 
-##Code
+## Code
 Implementation is been done in python using Jupyter. Libraries used here are:
 * pandas 
 * numpy
@@ -21,29 +21,30 @@ Implementation is been done in python using Jupyter. Libraries used here are:
 Source code can be [found here](https://github.com/amanullahtariq/MLAlgorithm/blob/master/linear_regression_demo/Challenge.ipynb). 
 
 
-##Requirements
+## Requirements
 * [Jupyter](http://jupyter.org/install.html)
 * [Python](https://www.python.org/)
 
-##Results
-####Challenge#1: Using Linear Regression on **'challenge_dataset'**
+## Results
+#### Challenge#1: Using Linear Regression on 'challenge_dataset'
 
-#####Mean Square Error
+##### Mean Square Error
 ![Result of Challenge Data-Set](images/challenge-result.png)
 
-#####Visualization
+##### Visualization
 ![Result of Challenge Data-Set](images/challenge.png)
 
-####Bonus: Linear regression on a dataset with 3 different variables.
-#####Mean Square Error
+#### Bonus: Linear regression on a dataset with 3 different variables.
+##### Mean Square Error
 ![Result of Challenge Data-Set](images/bonus-result.png)
 
-#####Visualization
+##### Visualization
 ![Result of Challenge Data-Set](images/bonus.png)
 
 ### Who do I talk to? ###
 I would be happy to talk to you about this project and if you are interested then we can further enhance this project to.
 
+### **[To see manual implementation of Linear Regression](https://github.com/amanullahtariq/MLAlgorithm/tree/master/Challenge/LinearRegression/GradientDescent)**
 
 ## Contact
 #### Amanullah Tariq 
