@@ -42,6 +42,13 @@ I would be happy to talk to you about this project and if you are interested the
 
 ### **[Implementation of Linear Regression using two and three variables](https://github.com/amanullahtariq/MLAlgorithm/tree/master/Challenge/LinearRegression)**
 
+## Reference
+* [Github: linear_regression_live](https://github.com/llSourcell/linear_regression_live)
+* [Partial derivative as slope](http://mathinsight.org/image/partial_derivative_as_slope)
+* http://www.dummies.com/education/math/calculus/how-to-use-a-partial-derivative-to-measure-a-slope-in-three-dimensions/
+* [An Introduction to Gradient Descent and Linear Regression](https://spin.atomicobject.com/2014/06/24/gradient-descent-linear-regression/)
+* [What is an intuitive explanation of gradient descent?](https://www.quora.com/What-is-an-intuitive-explanation-of-gradient-descent)
+
 ## Contact
 #### Amanullah Tariq 
 * [Github](https://github.com/amanullahtariq) | [LinkedIn](https://de.linkedin.com/in/amanullah-tariq-60a0b822)  | [XING](https://www.xing.com/profile/Amanullah_Tariq) 
