@@ -12,10 +12,10 @@ def get_label(analysis, threshold = 0):
 		return 'Negative'
 
 
-consumer_key = "Nw8isvM0lAwA8AxTTNWTSYj6Y"
-consumer_secret = "1AjAhE6KqDGYpw3JXvc0KGdc67LPiPafqA6Ln5ES0egOmPL88B"
-access_token = "1117680990-R9FTQVelroPKjli0237OpWCQNqwdvJ9bhMqxEsU"
-access_token_secret = "mbG4bFbW1zX7UiwX1lSNwgFpaiWqpXLHLWy08jSnkKXj1"
+consumer_key = "[COSUMER_KEY]"
+consumer_secret = "[consumer_secret]"
+access_token = "[access_token]"
+access_token_secret = "[access_token_secret]"
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
