@@ -37,5 +37,5 @@ write.csv(submit, "submission_SimpleOpenDays.csv", row.names = FALSE, quote = FA
 # Model Number 2
 ggplot(basedata) + aes(log(revenue), log(OpenDays), color=City.Group) + geom_point()
 ggplot(basedata) + aes(log(revenue), log(OpenDays), color=Type) + geom_point()
- 
+
 
