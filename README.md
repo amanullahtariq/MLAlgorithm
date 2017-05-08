@@ -17,7 +17,7 @@ From simple **numpy** to **sklearn** and all the way through **TensorFlow**, you
 
 #### 0 - Prerequisite
 - Introduction to Machine Learning ([notebook](https://github.com/aymericdamien/TensorFlow-Examples/blob/master/notebooks/0_Prerequisite/ml_introduction.ipynb))
-- Introduction to MNIST Dataset ([notebook](https://github.com/aymericdamien/TensorFlow-Examples/blob/master/notebooks/0_Prerequisite/mnist_dataset_intro.ipynb))
+- Introduction to MNIST Dataset ([notebook](https://github.com/amanullahtariq/MLAlgorithm/blob/master/Custom/MNIST/beginner.ipynb))
 
 #### 1 - Custom
 - Hello World ([notebook](https://github.com/aymericdamien/TensorFlow-Examples/blob/master/notebooks/1_Introduction/helloworld.ipynb)) ([code](https://github.com/aymericdamien/TensorFlow-Examples/blob/master/examples/1_Introduction/helloworld.py))
