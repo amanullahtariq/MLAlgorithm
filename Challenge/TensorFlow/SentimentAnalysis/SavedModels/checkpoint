@@ -1,0 +1,2 @@
+model_checkpoint_path: "/media/amanullahtariq/Work/repo/github/MachineLearning/Challenge/TensorFlow/SentimentAnalysis/SavedModels/model.tfl"
+all_model_checkpoint_paths: "/media/amanullahtariq/Work/repo/github/MachineLearning/Challenge/TensorFlow/SentimentAnalysis/SavedModels/model.tfl"
