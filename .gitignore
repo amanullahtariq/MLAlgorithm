@@ -11,4 +11,6 @@
 *.pckl
 *.gz
 *.aman
+.idea
+venv
 
