@@ -48,6 +48,19 @@ class LinkedList:
             print (node.data)
             node = node.next
 
+    def has_cycle(self):
+        node = self.head
+        node_list = []
+
+        while node != None:
+            if node.data in node_list:
+                return  True
+            node_list.append(node)
+            node = node.next
+
+        return False
+
+
 #def append(self, data):
 
 linked_list = LinkedList()
