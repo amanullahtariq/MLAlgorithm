@@ -5,6 +5,11 @@ def get_input_test_case1():
     input = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     return input
 
+def get_input_test_case2():
+
+    input = [10, 2, 3, 4, 5, 6, 7, 8, 9, 1]
+    return input
+
 
 def shiftdown(heap):
     c = len(heap) - 1
@@ -33,7 +38,7 @@ def shiftup(heap):
             break
 up = []
 down = []
-n = get_input_test_case1()
+n = get_input_test_case2()
 
 for a_t in n:
     a_t = int(a_t)
@@ -67,3 +72,4 @@ for a_t in n:
         print('%.1f' % result)
     else:
         print('%.1f' % up[0])
+
