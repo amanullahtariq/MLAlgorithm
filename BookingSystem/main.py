@@ -1,5 +1,13 @@
 from datetime import timedelta
 from datetime import datetime
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--input_file_path', type=str, default='input2.txt',
+                    help='File path to the input file')
+
+args = parser.parse_args()
+input_file_path = args.input_file_path
 
 # Meeting room class contains all the details of the
 # meeting room
@@ -38,39 +46,86 @@ class Office:
 ## Contains all the methods for data saving, validation and to print the output
 class DataProcessing:
 
-    def insert(self,meeting_room, meeting_detail, meeting_detail_list):
-        is_present = False
-        for detail in meeting_detail_list:
-            if detail.booking_date == meeting_detail.booking_date:
-                is_present = True
-                break
-        if is_present:
-            is_replace = False
+    def update_existing_record(self, detail, meeting_room):
+        """
+        Check if the booking of meeting room is already present
+        for the time, if yes then request which was done first
+        is added to the list and other is ignore
+        :param detail:
+        :param meeting_room:
+        :return:
+        """
 
-            for room in detail.room_detail:
-                if room.start_time == meeting_room.start_time:
-                    if room.req_time > meeting_room.req_time:
-                        is_replace = True
-                        break
-            if is_replace:
+        is_replace = False
+        print(detail)
+        for room in detail.room_detail:
+            if room.start_time == meeting_room.start_time:
+                if room.req_time > meeting_room.req_time:
+                    is_replace = True
+                    break
+        return is_replace, room
+
+    def check_date_entry_exist(self, meeting_detail_list, booking_detail):
+        """
+        Check if the entry against the booking date is already present
+        :param meeting_detail_list:
+        :param booking_detail:
+        :return: True if date entry already exist in the list
+        """
+        is_present = False
+        # Check if the entry against the booking date is already present
+        exist_detail = None
+        for detail in meeting_detail_list:
+           #print(detail)
+            if detail.booking_date == booking_detail.booking_date:
+                is_present = True
+                exist_detail = detail
+                break
+        return is_present, exist_detail
+
+    def insert(self,meeting_room, booking_detail, meeting_detail_list):
+        """
+        Insert the new date data or update the existed data
+        :param meeting_room: room detail
+        :param booking_detail: booking detail
+        :param meeting_detail_list: list of meeting details
+        :return: List of all the meeting details
+        """
+
+        is_present, exist_detail = self.check_date_entry_exist(meeting_detail_list, booking_detail)
+
+        if is_present:
+            is_replaceable, room = self.update_existing_record( exist_detail, meeting_room)
+            if is_replaceable:
                 room.req_time = meeting_room.req_time
                 room.req_date = meeting_room.req_date
                 room.empid = meeting_room.empid
             else:
-                detail.room_detail.append(meeting_room)
+                exist_detail.room_detail.append(meeting_room)
         else:
-            meeting_detail_list.append(meeting_detail)
+            meeting_detail_list.append(booking_detail)
 
         return meeting_detail_list
 
     def read_input(self):
+        """
+        Read the input file
+        :return: the list of inputs
+        """
         # todo: exception handling
-        file = open('input2.txt', 'r')
+        file_mode = 'r'
+        file = open(input_file_path, file_mode)
         input = file.read()
         file.close()
         return input
 
     def print_output(self,meeting_detail_list):
+        """
+        Print the list of meeting detail in the chronological order
+        :param meeting_detail_list:
+        :return:
+        """
+
         meeting_detail_list.sort(key=lambda x:x.booking_date)
 
         number = 1
@@ -83,7 +138,7 @@ class DataProcessing:
             print("===========================")
             number += 1
 
-    def validate_time(self,office_detail, booking_date,start_time, end_time):
+    def validate_office_time(self,office_detail, booking_date,start_time, end_time):
         '''
         :param office_detail:
         :param booking_date:
@@ -103,35 +158,48 @@ class DataProcessing:
 
         return result
 
+    def validate_booking_request_time(self, request_time, start_time):
+        """
+        Validate if the meeting room requested time is correct
+        :param request_time:
+        :param start_time:
+        :return: True if request time is before the start time of the meeting
+        """
+        result = False
+
+        if start_time >= request_time:
+            result = True
+
+        return result
+
 def run():
     data_util = DataProcessing()
     input = data_util.read_input()
     lines = input.split("\n")
     opening_time, closing_time = lines[0].split()
     office = Office(opening_time,closing_time)
-    dt_format = "%Y-%m-%d %H:%M:%S"
 
     meeting_detail_list = []
 
+    # Extracting input data and saving it
     for i in range(1, len(lines)):
         if i % 2 != 0:
             request_date, request_time, empid = lines[i].split()
-            request_time = datetime.strptime(request_date + " " +request_time,dt_format)
+            request_time = datetime.strptime(request_date + " " +request_time, "%Y-%m-%d %H:%M:%S")
 
         else:
             booking_date, start_time, duration = lines[i].split()
-            start_time = datetime.strptime(booking_date + " " +start_time,dt_format)
+            start_time = datetime.strptime(booking_date + " " +start_time, "%Y-%m-%d %H:%M")
             end_time = start_time + timedelta(hours=int(duration))
 
-            if data_util.validate_time(office,booking_date, start_time, end_time):
+            if data_util.validate_office_time(office,booking_date, start_time, end_time) and data_util.validate_booking_request_time(request_time, start_time):
                 meeting_detail = BookingDetail()
                 meeting_room = MeetingRoom(empid, start_time, end_time, request_date,request_time)
                 meeting_detail.book(booking_date, meeting_room)
 
                 meeting_detail_list = data_util.insert(meeting_room, meeting_detail, meeting_detail_list)
             else:
-                #todo:display a error message, cannot save
-                #print("Meeting time not correct")
+                #todo:display a error message for not saving the meeting data
                 continue
 
     ## Print the detail of the meetings
