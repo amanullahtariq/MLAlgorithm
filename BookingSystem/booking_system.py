@@ -21,9 +21,6 @@ class MeetingRoom:
         :param req_date:
         :param req_time:
 
-        >>> room = MeetingRoom()
-        >>> print room
-         test
         """
         self.start_time = start_time
         self.end_time = end_time
