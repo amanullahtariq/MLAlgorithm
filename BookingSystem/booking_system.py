@@ -1,18 +1,30 @@
 from datetime import timedelta
 from datetime import datetime
 import argparse
+import doctest
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--input_file_path', type=str, default='input2.txt',
+parser.add_argument('--input_file_path', type=str, default='input.txt',
                     help='File path to the input file')
 
-args = parser.parse_args()
-input_file_path = args.input_file_path
+
 
 # Meeting room class contains all the details of the
 # meeting room
 class MeetingRoom:
     def __init__(self,empid, start_time, end_time,req_date,req_time):
+        """
+
+        :param empid:
+        :param start_time:
+        :param end_time:
+        :param req_date:
+        :param req_time:
+
+        >>> room = MeetingRoom()
+        >>> print room
+         test
+        """
         self.start_time = start_time
         self.end_time = end_time
         self.empid = empid
@@ -57,7 +69,6 @@ class DataProcessing:
         """
 
         is_replace = False
-        print(detail)
         for room in detail.room_detail:
             if room.start_time == meeting_room.start_time:
                 if room.req_time > meeting_room.req_time:
@@ -107,7 +118,7 @@ class DataProcessing:
 
         return meeting_detail_list
 
-    def read_input(self):
+    def read_input(self,input_file_path):
         """
         Read the input file
         :return: the list of inputs
@@ -119,24 +130,7 @@ class DataProcessing:
         file.close()
         return input
 
-    def print_output(self,meeting_detail_list):
-        """
-        Print the list of meeting detail in the chronological order
-        :param meeting_detail_list:
-        :return:
-        """
 
-        meeting_detail_list.sort(key=lambda x:x.booking_date)
-
-        number = 1
-        for meeting in meeting_detail_list:
-            print("Meeting {}".format(number))
-            print(meeting.booking_date)
-            for detail in meeting.room_detail:
-                print("{} {} {}".format(detail.start_time.strftime('%X'), detail.end_time.strftime('%X'), detail.empid))
-
-            print("===========================")
-            number += 1
 
     def validate_office_time(self,office_detail, booking_date,start_time, end_time):
         '''
@@ -172,12 +166,10 @@ class DataProcessing:
 
         return result
 
-def run():
-    data_util = DataProcessing()
-    input = data_util.read_input()
-    lines = input.split("\n")
+def process_booking_detail(lines,data_util):
+
     opening_time, closing_time = lines[0].split()
-    office = Office(opening_time,closing_time)
+    office = Office(opening_time, closing_time)
 
     meeting_detail_list = []
 
@@ -185,26 +177,68 @@ def run():
     for i in range(1, len(lines)):
         if i % 2 != 0:
             request_date, request_time, empid = lines[i].split()
-            request_time = datetime.strptime(request_date + " " +request_time, "%Y-%m-%d %H:%M:%S")
+            request_time = datetime.strptime(request_date + " " + request_time, "%Y-%m-%d %H:%M:%S")
 
         else:
             booking_date, start_time, duration = lines[i].split()
-            start_time = datetime.strptime(booking_date + " " +start_time, "%Y-%m-%d %H:%M")
+            start_time = datetime.strptime(booking_date + " " + start_time, "%Y-%m-%d %H:%M")
             end_time = start_time + timedelta(hours=int(duration))
 
-            if data_util.validate_office_time(office,booking_date, start_time, end_time) and data_util.validate_booking_request_time(request_time, start_time):
+            if data_util.validate_office_time(office, booking_date, start_time,
+                                              end_time) and data_util.validate_booking_request_time(request_time,
+                                                                                                    start_time):
                 meeting_detail = BookingDetail()
-                meeting_room = MeetingRoom(empid, start_time, end_time, request_date,request_time)
+                meeting_room = MeetingRoom(empid, start_time, end_time, request_date, request_time)
                 meeting_detail.book(booking_date, meeting_room)
 
                 meeting_detail_list = data_util.insert(meeting_room, meeting_detail, meeting_detail_list)
             else:
-                #todo:display a error message for not saving the meeting data
+                # todo:display a error message for not saving the meeting data
                 continue
+    return meeting_detail_list
 
-    ## Print the detail of the meetings
-    data_util.print_output(meeting_detail_list)
+def print_output(meeting_detail_list):
+    """
+    Print the list of meeting detail in the chronological order
+    :param meeting_detail_list:
+    :return:
+    """
+
+    number = 1
+    for meeting in meeting_detail_list:
+        print("Meeting {}".format(number))
+        print(meeting.booking_date)
+        for detail in meeting.room_detail:
+            print("{} {} {}".format(detail.start_time.strftime('%X'), detail.end_time.strftime('%X'), detail.empid))
+
+        print("===========================")
+        number += 1
+
+def run(input_file_path):
+    """
+    Extract the input from the file, book all the meeting and
+    output the meeting detail
+    :param input_file_path:
+    :return: The list of meetings detail
+    """
+    # Initialization
+    data_util = DataProcessing()
+
+    # Read input from the file
+    input = data_util.read_input(input_file_path)
+    lines = input.split("\n")
+
+    #
+    meeting_detail_list = process_booking_detail(lines, data_util)
+
+    meeting_detail_list.sort(key=lambda x: x.booking_date)
+
+    return meeting_detail_list
 
 
 if __name__ == '__main__':
-    run()
+    args = parser.parse_args()
+    input_file_path = args.input_file_path
+    meeting_detail_list = run(input_file_path)
+    ## Print the detail of the meetings
+    print_output(meeting_detail_list)
