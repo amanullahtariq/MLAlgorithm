@@ -39,6 +39,6 @@ def solution(A):
     return  num
 
 if __name__ == "__main__":
-    A = [1, 3, 6, 4, 1, 2]
+    A = [2, 3, 1, 5]
 
     print(solution(A))
