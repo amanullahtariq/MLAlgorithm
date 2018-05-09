@@ -43,7 +43,7 @@ class QuickSort():
         return arr
 
 
-A = [9, 2, 6, 4, 3, 5, 1]
+A = [9, 2, 6, 4, 3, 5, 1, 2]
 
 print("Unsorted Array: ", A)
 
