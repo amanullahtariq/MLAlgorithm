@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbd6b770-78f1-4dbc-8a54-29cd1367f2ba" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cracking_coding_interview/Algorithms/quick_sort.py" afterPath="$PROJECT_DIR$/cracking_coding_interview/Algorithms/quick_sort.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cracking_coding_interview/Algorithms/sorting_comparator.py" afterPath="$PROJECT_DIR$/cracking_coding_interview/Algorithms/sorting_comparator.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,15 +17,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="quick_sort.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cracking_coding_interview/Algorithms/quick_sort.py">
+      <file leaf-file-name="sorting_comparator.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cracking_coding_interview/Algorithms/sorting_comparator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="45" column="27" lean-forward="false" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
-              <folding>
-                <element signature="e#203#307#0" expanded="false" />
-                <element signature="e#368#676#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -82,7 +79,6 @@
         <option value="$PROJECT_DIR$/BookingSystem/booking_system.py" />
         <option value="$PROJECT_DIR$/BookingSystem/test_booking_detail.py" />
         <option value="$PROJECT_DIR$/BookingSystem/booking_system.sh" />
-        <option value="$PROJECT_DIR$/cracking_coding_interview/Algorithms/sorting_comparator.py" />
         <option value="$PROJECT_DIR$/Python/codility.py" />
         <option value="$PROJECT_DIR$/cracking_coding_interview/DataStructures/array_left_rotation.py" />
         <option value="$PROJECT_DIR$/cracking_coding_interview/DataStructures/array_right_rotation" />
@@ -91,6 +87,7 @@
         <option value="$PROJECT_DIR$/Python/missing_integer.py" />
         <option value="$PROJECT_DIR$/Python/perm_missing_elem.py" />
         <option value="$PROJECT_DIR$/cracking_coding_interview/Algorithms/quick_sort.py" />
+        <option value="$PROJECT_DIR$/cracking_coding_interview/Algorithms/sorting_comparator.py" />
       </list>
     </option>
   </component>
@@ -182,20 +179,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MachineLearning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MachineLearning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -226,24 +209,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.quick_sort">
-    <configuration default="false" name="array_right_rotation" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cracking_coding_interview/DataStructures" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="MachineLearning" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/array_right_rotation" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.sorting_comparator">
     <configuration default="false" name="fibonacci" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -308,6 +274,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="MachineLearning" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cracking_coding_interview/Algorithms/quick_sort.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="sorting_comparator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cracking_coding_interview/Algorithms" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MachineLearning" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cracking_coding_interview/Algorithms/sorting_comparator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -476,19 +459,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.test" />
-      <item index="1" class="java.lang.String" itemvalue="Python.array_right_rotation" />
-      <item index="2" class="java.lang.String" itemvalue="Python.fibonacci" />
-      <item index="3" class="java.lang.String" itemvalue="Python.odd_occurrences_in_array" />
-      <item index="4" class="java.lang.String" itemvalue="Python.perm_missing_elem" />
-      <item index="5" class="java.lang.String" itemvalue="Python.quick_sort" />
+      <item index="1" class="java.lang.String" itemvalue="Python.fibonacci" />
+      <item index="2" class="java.lang.String" itemvalue="Python.odd_occurrences_in_array" />
+      <item index="3" class="java.lang.String" itemvalue="Python.perm_missing_elem" />
+      <item index="4" class="java.lang.String" itemvalue="Python.quick_sort" />
+      <item index="5" class="java.lang.String" itemvalue="Python.sorting_comparator" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.quick_sort" />
-        <item index="1" class="java.lang.String" itemvalue="Python.perm_missing_elem" />
-        <item index="2" class="java.lang.String" itemvalue="Python.odd_occurrences_in_array" />
-        <item index="3" class="java.lang.String" itemvalue="Python.fibonacci" />
-        <item index="4" class="java.lang.String" itemvalue="Python.array_right_rotation" />
+        <item index="0" class="java.lang.String" itemvalue="Python.sorting_comparator" />
+        <item index="1" class="java.lang.String" itemvalue="Python.quick_sort" />
+        <item index="2" class="java.lang.String" itemvalue="Python.perm_missing_elem" />
+        <item index="3" class="java.lang.String" itemvalue="Python.odd_occurrences_in_array" />
+        <item index="4" class="java.lang.String" itemvalue="Python.fibonacci" />
       </list>
     </recent_temporary>
   </component>
@@ -542,9 +525,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="18" width="1317" height="750" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23917995" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23917995" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -838,13 +821,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cracking_coding_interview/Algorithms/sorting_comparator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cracking_coding_interview/Algorithms/quick_sort.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -853,6 +829,14 @@
             <element signature="e#203#307#0" expanded="false" />
             <element signature="e#368#676#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cracking_coding_interview/Algorithms/sorting_comparator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
