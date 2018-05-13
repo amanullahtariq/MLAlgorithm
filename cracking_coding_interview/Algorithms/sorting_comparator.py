@@ -26,6 +26,8 @@
 # heraldo 50
 # aakansha 75
 # aleksa 150
+#
+#
 # Sample Output
 #
 # aleksa 150
@@ -36,6 +38,9 @@
 # Explanation
 #
 # As you can see, the players are first sorted by decreasing score and then sorted alphabetically by name.
+
+
+
 from functools import cmp_to_key
 
 
