@@ -27,7 +27,6 @@
 # aakansha 75
 # aleksa 150
 #
-#
 # Sample Output
 #
 # aleksa 150
@@ -55,17 +54,21 @@ class Player:
         pass
 
 
-n = int(input())
-data = []
-for i in range(n):
-    name, score = input().split()
-    score = int(score)
-    player = Player(name, score)
-    data.append(player)
+# n = int(input())
+# data = []
+# for i in range(n):
+#     name, score = input().split()
+#     score = int(score)
+#     player = Player(name, score)
+#     data.append(player)
+#
+# data = sorted(data, key=cmp_to_key(Player.comparator))
+# for i in data:
+#     print(i.name, i.score)
 
-data = sorted(data, key=cmp_to_key(Player.comparator))
-for i in data:
-    print(i.name, i.score)
+
+
+n = [100, 100, 50, 75, 150]
 
 
 
