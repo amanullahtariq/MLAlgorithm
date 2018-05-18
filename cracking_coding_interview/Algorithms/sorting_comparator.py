@@ -43,32 +43,58 @@
 from functools import cmp_to_key
 
 
+def get_input():
+    file = open('inputs/sorting_comparator.txt')
+    input = file.read()
+    file.close()
+    return  input
+
+
 class Player:
     def __init__(self, name, score):
-        pass
+        self.name = name
+        self.score = score
+
 
     def __repr__(self):
-        pass
+        return "%s %d\n" % (self.name, self.score)
 
     def comparator(a, b):
-        pass
+        val = a.score - b.score
+        # 150 - 100 = 50
+        # 50 - 75 = -25
+        # -1 = a on the top
+        # 1 = b on the top
+        if val == 0:
+            if a.name > b.name:
+                print(a.name)
+                print(b.name)
+                return 1
+            else:
+                return  -1
+
+        return -val
+
+data = get_input()
+data_list = []
+i = 0
+
+for line in data.split('\n'):
+    if i > 0:
+        name, score = line.split()
+        score = int(score)
+        player = Player(name,score)
+        data_list.append(player)
+    i +=1
 
 
-# n = int(input())
-# data = []
-# for i in range(n):
-#     name, score = input().split()
-#     score = int(score)
-#     player = Player(name, score)
-#     data.append(player)
+data_list = sorted(data_list, key= cmp_to_key(Player.comparator))
+
 #
-# data = sorted(data, key=cmp_to_key(Player.comparator))
-# for i in data:
+# for i in data_list:
 #     print(i.name, i.score)
 
 
-
-n = [100, 100, 50, 75, 150]
 
 
 
