@@ -59,6 +59,7 @@ class Player:
     def __repr__(self):
         return "%s %d\n" % (self.name, self.score)
 
+    ## return: -1 = a on top, 1 = b on top
     def comparator(a, b):
         val = a.score - b.score
         # 150 - 100 = 50
@@ -67,8 +68,8 @@ class Player:
         # 1 = b on the top
         if val == 0:
             if a.name > b.name:
-                print(a.name)
-                print(b.name)
+                #print(a.name)
+                #print(b.name)
                 return 1
             else:
                 return  -1
@@ -90,9 +91,10 @@ for line in data.split('\n'):
 
 data_list = sorted(data_list, key= cmp_to_key(Player.comparator))
 
-#
-# for i in data_list:
-#     print(i.name, i.score)
+print (" Printing list in descending order")
+
+for i in data_list:
+    print(i.name, i.score)
 
 
 
