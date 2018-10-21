@@ -2,29 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbd6b770-78f1-4dbc-8a54-29cd1367f2ba" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/sheet1-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BookingSystem/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BookingSystem/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BookingSystem/booking_system.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BookingSystem/booking_system.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BookingSystem/input.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BookingSystem/input1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BookingSystem/input2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BookingSystem/input3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BookingSystem/test_booking_detail.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TensorFlow/02_TF_Fundamentals/my_graph/events.out.tfevents.1509056064.aman" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TensorFlow/02_TF_Fundamentals/my_graph/events.out.tfevents.1509056524.aman" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TensorFlow/02_TF_Fundamentals/name_scope_1/events.out.tfevents.1509394926.aman" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TensorFlow/02_TF_Fundamentals/name_scope_2/events.out.tfevents.1509395646.aman" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TensorFlow/02_TF_Fundamentals/name_scope_2/events.out.tfevents.1509395795.aman" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TensorFlow/01_Installation/installation_check.ipynb" afterPath="$PROJECT_DIR$/TensorFlow/01_Installation/installation_check.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TensorFlow/01_Installation/welcome_tf.ipynb" afterPath="$PROJECT_DIR$/TensorFlow/01_Installation/welcome_tf.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TensorFlow/02_TF_Fundamentals/BasicGraph.ipynb" afterPath="$PROJECT_DIR$/TensorFlow/02_TF_Fundamentals/BasicGraph.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TensorFlow/02_TF_Fundamentals/NameScopeExamples.ipynb" afterPath="$PROJECT_DIR$/TensorFlow/02_TF_Fundamentals/NameScopeExamples.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TensorFlow/HelloWorld/Assignment1.ipynb" afterPath="$PROJECT_DIR$/TensorFlow/HelloWorld/Assignment1.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TensorFlow/HelloWorld/HelloTensor.ipynb" afterPath="$PROJECT_DIR$/TensorFlow/HelloWorld/HelloTensor.ipynb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Python/array_right_rotation" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Python/binary_gap.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Python/bon_appetit.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Python/compare_triplets.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Python/doctest.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Python/fibonacci.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Python/missing_integer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Python/odd_occurrences_in_array.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Python/perm_missing_elem.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cracking_coding_interview/Algorithms/bubble_sort.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cracking_coding_interview/Algorithms/counting_inversions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cracking_coding_interview/Algorithms/inputs/bubble_sort.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cracking_coding_interview/Algorithms/inputs/sorting_comparator.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cracking_coding_interview/Algorithms/merge_sort.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cracking_coding_interview/Algorithms/problems/ctci-comparator-sorting-English.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cracking_coding_interview/Algorithms/quick_sort.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cracking_coding_interview/Algorithms/sorting_comparator.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cracking_coding_interview/DataStructures/array_left_rotation.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cracking_coding_interview/DataStructures/heap_finding_the_running_median.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cracking_coding_interview/DataStructures/input/trie_contacts.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cracking_coding_interview/DataStructures/linked_list.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cracking_coding_interview/DataStructures/test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cracking_coding_interview/DataStructures/tree.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cracking_coding_interview/DataStructures/tries_contacts.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cracking_coding_interview/techniques_and_concept/fibonacci_numbers.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Custom/POS/demo.ipynb" afterPath="$PROJECT_DIR$/Custom/POS/demo.ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -163,6 +166,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="MachineLearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MachineLearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MachineLearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Google" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -511,7 +528,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="21" width="1863" height="1059" extended-state="6" />
+    <frame x="57" y="21" width="1863" height="1059" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20182501" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -550,13 +567,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Challenge/recruitment/knn_classifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Challenge/recruitment/main_v2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -599,13 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Custom/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -893,6 +896,21 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Custom/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Custom/POS/demo.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
         </state>
       </provider>
     </entry>
