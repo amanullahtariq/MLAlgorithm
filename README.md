@@ -20,7 +20,7 @@ From simple **numpy** to **sklearn** and all the way through **TensorFlow**, you
 - Introduction to MNIST Dataset ([notebook](https://github.com/amanullahtariq/MLAlgorithm/blob/master/Custom/MNIST/beginner.ipynb))
 
 #### 1 - Custom
-- Hello World ([notebook](https://github.com/aymericdamien/TensorFlow-Examples/blob/master/notebooks/1_Introduction/helloworld.ipynb)) ([code](https://github.com/aymericdamien/TensorFlow-Examples/blob/master/examples/1_Introduction/helloworld.py))
+- Hello World ([notebook](https://github.com/amanullahtariq/MLAlgorithm/blob/master/TensorFlow/HelloWorld/HelloTensor.ipynb)) ([code](https://github.com/amanullahtariq/MLAlgorithm/blob/master/TensorFlow/HelloWorld/helloworld.py))
 - Basic Operations ([notebook](https://github.com/aymericdamien/TensorFlow-Examples/blob/master/notebooks/1_Introduction/basic_operations.ipynb)) ([code](https://github.com/aymericdamien/TensorFlow-Examples/blob/master/examples/1_Introduction/basic_operations.py))
 
 #### 2 - Challenge
