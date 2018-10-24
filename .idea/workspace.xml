@@ -2,32 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbd6b770-78f1-4dbc-8a54-29cd1367f2ba" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Python/array_right_rotation" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Python/binary_gap.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Python/bon_appetit.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Python/compare_triplets.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Python/doctest.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Python/fibonacci.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Python/missing_integer.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Python/odd_occurrences_in_array.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Python/perm_missing_elem.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cracking_coding_interview/Algorithms/bubble_sort.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cracking_coding_interview/Algorithms/counting_inversions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cracking_coding_interview/Algorithms/inputs/bubble_sort.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cracking_coding_interview/Algorithms/inputs/sorting_comparator.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cracking_coding_interview/Algorithms/merge_sort.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cracking_coding_interview/Algorithms/problems/ctci-comparator-sorting-English.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cracking_coding_interview/Algorithms/quick_sort.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cracking_coding_interview/Algorithms/sorting_comparator.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cracking_coding_interview/DataStructures/array_left_rotation.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cracking_coding_interview/DataStructures/heap_finding_the_running_median.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cracking_coding_interview/DataStructures/input/trie_contacts.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cracking_coding_interview/DataStructures/linked_list.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cracking_coding_interview/DataStructures/test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cracking_coding_interview/DataStructures/tree.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cracking_coding_interview/DataStructures/tries_contacts.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cracking_coding_interview/techniques_and_concept/fibonacci_numbers.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Custom/POS/demo.ipynb" afterPath="$PROJECT_DIR$/Custom/POS/demo.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,7 +17,18 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="tsne_demo.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dimension_reduction/tsne_demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -72,7 +59,6 @@
         <option value="$PROJECT_DIR$/Challenge/recruitment_challenge.py" />
         <option value="$PROJECT_DIR$/DataStructures/array_left_rotation.py" />
         <option value="$PROJECT_DIR$/DataStructures/compare_triplets.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/DataStructures/tree.py" />
         <option value="$PROJECT_DIR$/DataStructures/cracking_coding_interview/linked_list.py" />
         <option value="$PROJECT_DIR$/DataStructures/cracking_coding_interview/test.py" />
@@ -110,6 +96,9 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/TensorFlow/HelloWorld/Assignment1.ipynb" />
         <option value="$PROJECT_DIR$/TensorFlow/02_TF_Fundamentals/BasicGraph.ipynb" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/dimension_reduction/tsne_demo.py" />
+        <option value="$PROJECT_DIR$/dimension_reduction/README.md" />
       </list>
     </option>
   </component>
@@ -179,7 +168,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Google" />
+              <option name="myItemId" value="dimension_reduction" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -528,10 +517,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="21" width="1863" height="1059" extended-state="7" />
+    <frame x="57" y="21" width="1863" height="1059" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20182501" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20182501" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -567,23 +556,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Challenge/recruitment/main_v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Challenge/recruitment/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-560">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python/cracking_coding_interview/array_left_rotation.py" />
-    <entry file="file://$PROJECT_DIR$/DataStructures/compare_triplets.py" />
-    <entry file="file://$PROJECT_DIR$/Python/tree.py" />
     <entry file="file://$PROJECT_DIR$/cracking_coding_interview/DataStructures/tree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-180">
@@ -822,14 +794,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TensorFlow/01_Installation/installation_check.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -848,17 +812,6 @@
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="600">
-            <caret line="23" column="143" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="143" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -911,6 +864,77 @@
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Challenge/CO2Emission/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Challenge/GenderClassification/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Challenge/LinearRegression/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="18" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dimension_reduction/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="135">
+            <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dimension_reduction/tsne_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
