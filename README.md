@@ -34,8 +34,6 @@ From simple **numpy** to **sklearn** and all the way through **TensorFlow**, you
 - Exercise#1: Machine Learning in Life Scicence WS 2016 - 2017
 - Exercise#2: Machine Learning in Life Scicence WS 2016 - 2017
 
-#### 4 - Google
-
 ## How do I get set up? ##
 This code is written in python using [Jupyter](http://jupyter.org/install.html)
 * First setting up and  how to use jupyther you can use this [Link](https://www.youtube.com/watch?v=IsXXlYVBt1M)
