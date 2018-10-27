@@ -44,7 +44,6 @@ This code is written in python using [Jupyter](http://jupyter.org/install.html)
 * [Machine learning, Andrew Ng](https://www.coursera.org/learn/machine-learning)
 * [Intro to Deep Learning (Udacity Nanodegree)](https://www.youtube.com/playlist?list=PL2-dafEMk2A7YdKv4XfKpfbTH5z6rEEj3)
 
-
 ### Who do I talk to? ###
 I would be happy to talk to you about this project and if you are interested then we can further enhance this project to.
 
