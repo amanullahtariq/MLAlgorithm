@@ -4,7 +4,7 @@ If you are new to Machine learning please check out the reference section to div
 ## Introduction
 Now a days, Machine Learning is been every where from Autonomous Driving Car to reccommendation system used by Amazon. Everybody knowingly or unknowingly is using Machine Learning. Have you ever wonder":
 - How Facebook recommend you new friends? 
-- How Siri reconize your voice?
+-How Siri reconize your voice?
 
 Using machine learning softwares is fun but implementing them is more fun. It's like training a child and when you see it doing the work you become more curious about it.
 
